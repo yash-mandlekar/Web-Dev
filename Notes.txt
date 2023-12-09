@@ -21,3 +21,6 @@ For CSS ----------------------------------------------------------------
 10. understanding position absolute
 
 11. understanding flexbox
+
+12. understanding font size,font family, font weight
+
