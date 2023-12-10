@@ -1,18 +1,24 @@
+For HTML --------------------------------------------------------------- 
+
+1. Paired Tags
+
+2. Unpaired Tags
+
 For CSS ----------------------------------------------------------------
 
 1. understanding css - styling
 
 2. making css file
 
-3. understanding linking
+3. understanding linking 
 
 4. css boilerplate
 
-5. understanding css writing way
+5. understanding css writing way 
 
 6. understanding width, height
 
-7. understanding units, px and %
+7. understanding units - px and %
 
 8. understanding margin padding
 
