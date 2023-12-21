@@ -30,3 +30,6 @@ For CSS ----------------------------------------------------------------
 
 12. understanding font size,font family, font weight
 
+13. border , border radius ,background color (transparent) "fancy border radius"
+
+14. 
