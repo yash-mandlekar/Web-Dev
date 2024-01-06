@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.box {
+  height: 85%;
+  width: 85%;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.violet {
+  background-color: violet;
+}
+.indigo {
+  background-color: indigo;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.orange {
+  background-color: orange;
+}
+.red {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
