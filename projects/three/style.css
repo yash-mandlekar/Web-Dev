@@ -1,0 +1,139 @@
+@font-face {
+    font-family: roboto-medium;
+    src: url(./Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(./Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: roboto-bold;
+    src: url(./Roboto-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    position: relative;
+    height: 80%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(21, 20, 39, 0.437);
+    padding: 25px 75px;
+    color: white;
+    font-size: 13px;
+}
+
+.logo,.nav-items,.nav-buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-items,.nav-buttons{
+    gap: 25px;
+}
+.logo img{
+    height: 50px;
+    width: 100px;
+}
+
+.cart{
+    position: relative;
+}
+.notification{
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    background-color: red;
+    padding: 4px 5px;
+    font-size: 9px;
+    border-radius: 100px;
+}
+
+.purchase-btn{
+    padding: 12px 15px;
+    background-color: rgb(193, 126, 1);
+    border-radius: 10px;
+}
+.main video{
+    width: 100%;
+}
+.overlay-1{
+    height: 75%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.overlay-1 .heading{
+    font-family: roboto;
+    font-size: 32px;
+    text-align: center;
+    color: #697482;
+    margin-bottom: 45px;
+}
+.overlay-1 .title{
+    font-family: roboto-bold;
+    font-size: 390px;
+    text-align: center;
+    color: #6974825d;
+}
+
+.overlay-2{
+    position: absolute;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%,0);
+    bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.float-cnt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.float-title{
+    font-size: 29px;
+    color: white;
+}
+.float-text{
+    color: #697482;
+}
+.mobile{
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+}
+
+.second{
+    padding: 5% 15% 0 15%;
+    display: flex;
+    flex-direction: column;
+}
+.second .float-title,.third .float-title{
+    font-family: roboto-medium;
+    color: black;
+}
+.third{
+    padding-left: 65%;
+}
