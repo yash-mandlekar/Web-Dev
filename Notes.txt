@@ -19,6 +19,7 @@ For CSS ----------------------------------------------------------------
 6. understanding width, height
 
 7. understanding units - px and %
+-
 
 8. understanding margin padding
 
@@ -32,4 +33,8 @@ For CSS ----------------------------------------------------------------
 
 13. border , border radius ,background color (transparent) "fancy border radius"
 
-14. 
+14. box-shadow , filter , backdrop-filter
+
+15. transform , translate , rotate , scale 
+
+
